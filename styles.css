@@ -57,9 +57,10 @@ h1 {
     width: 800px;
 }
 
-button, .cta {
+button {
     background-color: #3882F6;
     width: 100px;
+    color: #E5E7EB;
 }
 
 .information {
@@ -93,4 +94,27 @@ h2 {
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
+    padding: 150px;
+}
+
+figcaption {
+    font-weight: bold;
+    text-align: right;
+    font-style: normal;
+}
+
+.cta {
+    background-color: #3882F6;
+    margin: 20px;
+    padding: 20px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: #E5E7EB;
 }
