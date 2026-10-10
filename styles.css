@@ -54,7 +54,7 @@ h1 {
 
 .hero-image {
     flex: 2 1 auto;
-    width: 1000px;
+    width: 800px;
 }
 
 button, .cta {
@@ -66,6 +66,25 @@ button, .cta {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.image-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: 250px;
 }
 
 .testimonial {
