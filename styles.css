@@ -6,7 +6,9 @@
 }
 
 body {
-    font-family: Roboto; sans-serif;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -15,8 +17,20 @@ body {
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
     font-size: 24px;
     color: #F9FAF8;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    font-size: 18px;
+    color: #E5E7EB
 }
 
 h1 {
@@ -25,13 +39,27 @@ h1 {
     font-weight: 900;
 }
 
-.hero, ul {
+.hero {
     font-size: 18px;
     color: #E5E7EB;
+    padding: 20px;
+    display: flex;
+    }
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.hero-image {
+    flex: 2 1 auto;
+    width: 1000px;
 }
 
 button, .cta {
     background-color: #3882F6;
+    width: 100px;
 }
 
 .information {
