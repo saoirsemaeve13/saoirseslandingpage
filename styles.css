@@ -21,7 +21,7 @@ body {
     justify-content: space-between;
     font-size: 24px;
     color: #F9FAF8;
-    padding: 20px;
+    padding: 30px;
     padding-top: 5px;
 }
 
@@ -42,7 +42,7 @@ h1 {
 .hero {
     font-size: 18px;
     color: #E5E7EB;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     }
 
@@ -64,28 +64,39 @@ button {
 }
 
 .information {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
     margin-bottom: 20px;
 }
+
+.image-one, .image-two, .image-three, .image-four {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    width: 250px;
+    }
 
 .image-group {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.info {
-    width: 250px;
+    gap: 10px;
+    flex-shrink: 1;
+    font-size: 24px;
+    color: #1F2937;
+    text-align: center;
 }
 
 .testimonial {
