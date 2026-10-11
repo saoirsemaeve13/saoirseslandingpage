@@ -1,0 +1,55 @@
+/* GLOBAL RESET */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: lightcoral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.main-content {
+    display: flex;
+    background: darkgrey;
+    gap: 10px;
+    padding: 20px;
+}
+
+.main-left, .main-right {
+    background: pink;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    flex-basis: 20%;
+}
+
+.main-center {
+    background: skyblue;
+    border-radius: 10px;
+    padding: 20px;
+    flex-basis: 60%;
+    gap: 15px;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+.footer {
+    background: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
