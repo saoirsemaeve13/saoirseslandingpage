@@ -12,6 +12,21 @@
     --muted-ice-blue: #bedce3;
 }
 
+html, body {
+    height: 100%;
+    background-color: #f3f3f6; /* Optional: adds a background behind your centered layout */
+}
+
+.body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     font-size: 48px;
     background-color: #fd6822;
@@ -25,6 +40,7 @@
 
 .main-content {
     display: flex;
+    flex-grow: 1;
 }
 
 .main-left {
@@ -33,6 +49,7 @@
     flex-direction: column;
     background: #e3dcd5;
     padding: 15px;
+    flex-grow: 1;
 }
 
 ul {
@@ -44,11 +61,13 @@ ul {
     flex-basis: 85%;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
 }
 
 .banner {
     background: #f3f3f6;
     padding: 15px;
+    flex-grow: 1;
 }
 
 h3 {
@@ -60,6 +79,7 @@ h3 {
 .content {
     background-color: #bedce3;
     padding: 15px;
+    flex-grow: 1;
 }
 
 p {
