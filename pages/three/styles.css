@@ -57,6 +57,24 @@ header {
     width: 100%
 }
 
+.cta {
+    display: flex;
+    background-color: var(--soft-green);
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.cta__left, .cta__center, .cta__right {
+    flex: 0 1 250px;
+    text-align: center;
+    color: var(--sage-green);
+}
+
+.cta__img {
+    width: 100%;
+}
+
 footer {
     background: var(--nutmeg);
     display: flex;
